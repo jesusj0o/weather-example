@@ -19,7 +19,7 @@ const Form = ({search, setSearch, setQuery}) => {
     const handleSubmit = e => { 
         e.preventDefault();
 
-        if(city.trim() === '' || country.trim() == ''){ 
+        if(city.trim() === '' || country.trim() === ''){ 
             setError(true)
             return
         }
